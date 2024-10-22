@@ -1,58 +1,56 @@
 body {
-    color:white;
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    color: white; /* Define a cor do texto do corpo da página como branco */
+    background-color: black; /* Define a cor de fundo do corpo da página como preto */
+    font-family: Arial, Helvetica, sans-serif; /* Define a família de fontes a ser usada no corpo da página */
 }
 
 ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    align-items: center;
-    padding: 20px;
+    display: flex; /* Define que os itens da lista serão exibidos em linha, como um flex container */
+    justify-content: space-around; /* Distribui os itens da lista com espaçamento igual entre eles */
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    align-items: center; /* Alinha os itens da lista verticalmente ao centro */
+    padding: 20px; /* Adiciona um padding de 20px ao redor da lista */
 }
+
 a {
-    color: white;
-    text-decoration: none;
+    color: white; /* Define a cor dos links como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
 }
 
 header img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid slateblue;
+    width: 150px; /* Define a largura da imagem do cabeçalho */
+    height: 150px; /* Define a altura da imagem do cabeçalho */
+    border-radius: 50%; /* Torna a imagem circular */
+    border: 5px solid slateblue; /* Adiciona uma borda azul ardósia de 5px à imagem */
 }
 
 .center {
-    text-align: center;
+    text-align: center; /* Centraliza o texto horizontalmente */
 }
 
-h1{
-    color: slateblue;
+h1 {
+    color: slateblue; /* Define a cor do texto do título principal como azul ardósia */
 }
 
 footer img {
-    width: 40px;
-    height: 40px;
+    width: 40px; /* Define a largura das imagens do rodapé */
+    height: 40px; /* Define a altura das imagens do rodapé */
 }
 
 .container {
-    padding: 50px;
-    text-align: center;
-
+    padding: 50px; /* Adiciona um padding de 50px ao redor do contêiner */
+    text-align: center; /* Centraliza o texto horizontalmente dentro do contêiner */
 } 
 
 .container2 {
-    padding: 50px;
-    text-align: center;
-
+    padding: 50px; /* Adiciona um padding de 50px ao redor do contêiner */
+    text-align: center; /* Centraliza o texto horizontalmente dentro do contêiner */
 } 
 
 nav a:hover {
-    color: slateblue;
+    color: slateblue; /* Muda a cor dos links para azul ardósia quando o mouse passa por cima */
 }
 
 .text-center { 
-    text-align: center;
+    text-align: center; /* Centraliza o texto horizontalmente */
 }
-
